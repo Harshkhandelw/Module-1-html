@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form development</title>
+</head>
+<body>
+    <form action="" method="" enctype="">
+        <center>
+            <table  width="" height="500px">
+                <tr>
+                    <th colspan="4">Reservation page</th>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Name">Name:- </label></td>
+                    <td colspan="3"><select name="Name" id="Name">
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>  <input type="text" placeholder="First Name"> <input type="text" placeholder="last Name"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Guests">Guests:-</label></td>
+                    <td colspan="3"> <input type="number" placeholder="18+"> <input type="number"
+                         placeholder="2-17 year"> <input type="number" placeholder="<2 year"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="contact">contact:-</label></td>
+                    <td colspan="3"><input type="email" placeholder="email">
+                    <input type="tel" id="contact" name="contact"
+                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="111-222-3333"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Checkin">Checkin:-</label><input type="date"></td>
+                    <td colspan="3"><label for="checkout">Checkout:-</label> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="slide-outs">Slide-outs:-</label></td>
+                    <td colspan="3"> <label for="yes">Yes</label><input type="radio" name="slide-outs" id="slide-outs">
+                    <label for="No">No</label> <input type="radio" name="slide-outs" id="slide-outs"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Required Service">Required Service:-</label></td>
+                    <td colspan="3"><select name="Required Service" id="Required Service">
+                        <option value="None select">None select</option>
+                        <option value="cars">cars</option>
+                        <option value="bike">bike</option>
+                        <option value="food">Food</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Pets">Pets:-</label></td>
+                    <td colspan="3"> <label for="yes">Yes</label><input type="radio" name="Pets" id="Pets">
+                        <label for="No">No</label> <input type="radio" name="Pets" id="Pets"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="Comments">Comments:-</label></td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th colspan="4"><button>Reservation confirm</button> <button>cencle</button></th>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
