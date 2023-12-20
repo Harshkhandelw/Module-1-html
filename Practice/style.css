@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+}
+.msg{
+    width: 100%;
+    font-weight: bolder;
+    color: crimson;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    animation: message 2s ease-in-out 2s forwards;
+}
+@keyframes message {
+    0%{
+        opacity: 0;
+        margin-top: 0;
+    }
+    100%{
+        opacity: 1;
+        margin-top: -150px;
+    }
+}
